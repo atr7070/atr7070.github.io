@@ -1,3 +1,0 @@
-# resume
-
-ATR's Portfolio 

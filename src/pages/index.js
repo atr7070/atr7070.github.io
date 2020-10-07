@@ -13,7 +13,7 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Home" />
       <Container className="text-center pt-4 mt-4" fluid>
-      <Image
+      {/*<Image
         width="150"
         height="150"
         fluid
@@ -21,8 +21,7 @@ export default ({ data }) => {
         //src=`../../icons/darth-vader.png`
         alt={dark ? "Darth Vader" : "R2-D2"}
         //alt="Darth Vader"
-      />
-
+      />*/}
         {unemployed && (
           <p className="mt-2">
             <b> Hey! I am looking for new opportunities :)</b>
@@ -103,6 +102,17 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
+          {/*<a
+            class="custom-link"
+            href="https://www.twitter.com/anasr7070"
+            target="_blank"
+          >
+            <img
+              class="custom-icon icons file"
+              src="../../icons/codingame.png"
+            />
+          </a>*/}
+
           <a href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
@@ -110,6 +120,7 @@ export default ({ data }) => {
               title="Resume"
             />
           </a>
+
         </div>
       </Container>
     </PageLayout>

@@ -8,7 +8,7 @@ date: "2020-08-20"
 
 As I sat there, gazing at the grey nightsky
 Peering at the shy dots
-hiding behing the whitish clouds
+hiding behind the whitish clouds
 And the wondorous streaks of light
 never making it to earth
 

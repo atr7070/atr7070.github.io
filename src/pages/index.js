@@ -18,7 +18,9 @@ export default ({ data }) => {
           height="150"
           fluid
           src={dark ? `../../icons/darth-vader.png` : `../../icons/r2-d2.png`}
+          //src=`../../icons/darth-vader.png`
           alt={dark ? "Darth Vader" : "R2-D2"}
+          //alt="Darth Vader"
         />
         {unemployed && (
           <p className="mt-2">

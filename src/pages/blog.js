@@ -45,8 +45,8 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Blog" />
       <PageTitle title="My Blog" />
-      <Container className="px-5 mb-5 text-center">
-        <Form className="aurebesh blog-filter">
+      {/*<Container className="px-5 mb-5 text-center">
+        <Form className="blog-filter">
           <FormControl
             className="bg-none search"
             type="text"
@@ -54,7 +54,8 @@ export default ({ data }) => {
             onChange={handleChange}
           />
         </Form>
-      </Container>
+      </Container>*/}
+
       <Container
         fluid
         className="p-3 w-auto text-left d-flex flex-wrap justify-content-center"

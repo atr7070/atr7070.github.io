@@ -18,6 +18,7 @@ export default ({ data }) => {
   return (
     <PostTemplate
       title={post.frontmatter.title}
+      projectlink={post.frontmatter.link}
       subTitle={<SubTitle tags={post.frontmatter.tags} />}
       excerpt={post.excerpt}
       html={post.html}
@@ -31,6 +32,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        link
         tags
       }
       excerpt

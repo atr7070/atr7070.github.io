@@ -13,8 +13,8 @@ const r2d2Audio = new Howl({
 })
 
 const defaultState = {
-  dark: false,
-  toString: () => `light`,
+  dark: true,
+  toString: () => `dark`,
   toggleDark: () => {},
 }
 

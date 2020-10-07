@@ -14,7 +14,7 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Projects" />
       <PageTitle title="Projects" />
-      <Container className="text-left">
+      <Container className="text-center">
         <section>
           {allProjects.map(({ node }) => (
             <div key={node.id} className="p-3">

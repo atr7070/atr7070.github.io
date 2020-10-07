@@ -12,16 +12,17 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Home" />
-      <Container className="text-center pt-5 mt-5" fluid>
-        <Image
-          width="150"
-          height="150"
-          fluid
-          src={dark ? `../../icons/darth-vader.png` : `../../icons/r2-d2.png`}
-          //src=`../../icons/darth-vader.png`
-          alt={dark ? "Darth Vader" : "R2-D2"}
-          //alt="Darth Vader"
-        />
+      <Container className="text-center pt-4 mt-4" fluid>
+      <Image
+        width="150"
+        height="150"
+        fluid
+        src={dark ? `../../icons/leia.png` : `../../icons/r2-d2.png`}
+        //src=`../../icons/darth-vader.png`
+        alt={dark ? "Darth Vader" : "R2-D2"}
+        //alt="Darth Vader"
+      />
+
         {unemployed && (
           <p className="mt-2">
             <b> Hey! I am looking for new opportunities :)</b>
@@ -40,7 +41,7 @@ export default ({ data }) => {
           <p>
             <i>
               {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              `Rebel scum by night`
             </i>
           </p>
         </Container>

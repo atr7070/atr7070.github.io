@@ -9,6 +9,6 @@ export default ({ children }) => (
     <Container fluid className="pt-5 mt-5 text-center min-vh-100">
       {children}
     </Container>
-    <Footer />
+    {/*<Footer />*/}
   </Container>
 )
